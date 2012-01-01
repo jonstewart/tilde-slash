@@ -1,0 +1,14 @@
+#!/bin/bash
+
+input=$1
+
+if [[ $input == *.tar.gz || $input == *.tgz ]]
+then
+  tar -xzf $input
+elif [[ $input == *.tar.bz2 ]]
+  tar -xjf $input
+elif [[ $input == *.zip ]]
+  unzip $input
+else
+  echo "Could not determine what to do with $input"
+fi
