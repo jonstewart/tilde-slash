@@ -1,3 +1,14 @@
+UNAME_S=`uname -s`
+if [ $UNAME_S == 'Linux' ]
+then
+  export TOTAL_CORES=`cat /proc/cpuinfo | grep -c processor`
+elif [ $UNAME_S == 'Darwin' ]
+then
+  export TOTAL_CORES=`sysctl -n hw.ncpu`
+else
+  echo "Cannot determine total number of cores on this system"
+fi
+
 # fedora
 alias pico='nano'
 alias syi='sudo yum install'
@@ -11,5 +22,5 @@ alias gau='git add -u'
 
 # misc
 alias ll='ls -la'
-alias sc='scons -j 4'
-alias mk='make -j4'
+alias sc="scons -j $TOTAL_CORES"
+alias mk="make -j -l $TOTAL_CORES"
