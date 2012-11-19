@@ -1,3 +1,15 @@
+# fedora
 alias pico='nano'
 alias syi='sudo yum install'
 
+# git
+alias gi='git status'
+alias gdc='git diff --cached'
+alias gdiff='git diff'
+alias gcm='git commit -m'
+alias gau='git add -u'
+
+# misc
+alias ll='ls -la'
+alias sc='scons -j 4'
+alias mk='make -j4'

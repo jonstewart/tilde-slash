@@ -6,9 +6,14 @@ if [[ $input == *.tar.gz || $input == *.tgz ]]
 then
   tar -xzf $input
 elif [[ $input == *.tar.bz2 ]]
+then
   tar -xjf $input
-elif [[ $input == *.zip ]]
+elif [[ $input == *.zip || $input == *.jar ]]
+then
   unzip $input
+elif [[ $input == *.7z ]]
+then
+  7za x $input -y > /dev/null
 else
   echo "Could not determine what to do with $input"
 fi
