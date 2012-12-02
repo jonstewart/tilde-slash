@@ -1,6 +1,7 @@
 Package { ensure => "installed" }
 
 package {[
-"chromium-browser"
+"chromium-browser",
+"gparted"
 ]:
 }
