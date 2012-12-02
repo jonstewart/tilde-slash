@@ -3,6 +3,7 @@ Package { ensure => "installed" }
 package {[
 "mdadm",
 "xfsprogs",
-"xfsdump"
+"xfsdump",
+"etckeeper"
 ]:
 }
