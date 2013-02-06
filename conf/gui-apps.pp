@@ -6,7 +6,6 @@ package {[
 "deluge",
 "gufw",
 "meld",
-"bless",
-"wxHexEditor"
+"bless"
 ]:
 }
