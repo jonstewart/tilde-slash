@@ -8,7 +8,11 @@ package {[
 "autoconf",
 "automake",
 "bison",
+"flex",
 "curl",
-"wget"
+"wget",
+"libtool",
+"git-svn",
+"screen"
 ]:
 }

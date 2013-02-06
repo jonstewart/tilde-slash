@@ -2,6 +2,11 @@ Package { ensure => "installed" }
 
 package {[
 "chromium-browser",
-"gparted"
+"gparted",
+"deluge",
+"gufw",
+"meld",
+"bless",
+"wxHexEditor"
 ]:
 }

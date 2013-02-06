@@ -4,6 +4,11 @@ package {[
 "mdadm",
 "xfsprogs",
 "xfsdump",
-"etckeeper"
+"etckeeper",
+"virtualbox",
+"whois",
+"nmap",
+"openssh-server",
+"secure-delete"
 ]:
 }
