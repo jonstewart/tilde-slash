@@ -23,4 +23,5 @@ alias gau='git add -u'
 # misc
 alias ll='ls -la'
 alias sc="scons -j $TOTAL_CORES"
-alias mk="make -j -l $TOTAL_CORES"
+alias mk="make -j $TOTAL_CORES"
+alias mkc="make -j $TOTAL_CORES check"
