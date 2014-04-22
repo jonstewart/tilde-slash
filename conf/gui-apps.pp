@@ -6,6 +6,9 @@ package {[
 "deluge",
 "gufw",
 "meld",
-"bless"
+"bless",
+"ghex",
+"wx-common",
+"eclipse-cdt"
 ]:
 }

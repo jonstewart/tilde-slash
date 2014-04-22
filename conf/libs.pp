@@ -7,6 +7,11 @@ package {[
 "libewf-dev",
 "ewf-tools",
 "libafflib-dev",
-"libicu-dev"
+"libicu-dev",
+"libpcre3-dbg",
+"libpcre3-dev",
+"libpcre3",
+"libpcrecpp0",
+"libsqlite3-dev"
 ]:
 }

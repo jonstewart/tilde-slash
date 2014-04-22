@@ -13,6 +13,10 @@ package {[
 "wget",
 "libtool",
 "git-svn",
-"screen"
+"screen",
+"mingw-w64",
+"mingw-w64-tools",
+"mingw32",
+"valgrind"
 ]:
 }

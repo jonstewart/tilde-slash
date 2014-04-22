@@ -6,6 +6,10 @@ package {[
 "sun-java6-fonts",
 "ant",
 "ant-contrib",
-"maven"
+"maven",
+"visualvm",
+"netbeans",
+"jenkins",
+"ivy"
 ]:
 }

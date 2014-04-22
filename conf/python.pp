@@ -9,6 +9,8 @@ package {[
 "ipython-notebook",
 "scons",
 "python-networkx",
-"python-pygraphviz"
+"python-pygraphviz",
+"python-nltk",
+"bpython"
 ]:
 }

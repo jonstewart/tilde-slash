@@ -9,6 +9,28 @@ package {[
 "whois",
 "nmap",
 "openssh-server",
-"secure-delete"
+"secure-delete",
+"wine",
+"linux-tools-common",
+"linux-base",
+"linux-tools-3.5.0-17",
+"subversion",
+"htop",
+"vpnc",
+"network-manager-vpnc",
+"network-manager-vpnc-gnome",
+"collectd",
+"collectd-utils",
+"librrd-ruby1.9.1",
+"ruby",
+"ruby-dev",
+"rubygems",
+"build-essential"
 ]:
 }
+
+package { ["visage-app"]:
+	ensure => 'installed',
+	provider => 'gem'
+}
+
