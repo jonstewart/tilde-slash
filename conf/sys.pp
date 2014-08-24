@@ -25,7 +25,17 @@ package {[
 "ruby",
 "ruby-dev",
 "rubygems",
-"build-essential"
+"build-essential",
+"aqemu",
+"ubuntu-virt",
+"qemu-system",
+"libvirt-bin",
+"openvpn",
+"gadmin-openvpn-client",
+"network-manager-openvpn",
+"network-manager-openvpn-gnome",
+"fuse",
+"libfuse-dev"
 ]:
 }
 

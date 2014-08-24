@@ -6,6 +6,7 @@ package {[
 "clang",
 "llvm",
 "autoconf",
+"autoconf-archive",
 "automake",
 "bison",
 "flex",
@@ -17,6 +18,7 @@ package {[
 "mingw-w64",
 "mingw-w64-tools",
 "mingw32",
-"valgrind"
+"valgrind",
+"libbotan-1.10-0"
 ]:
 }

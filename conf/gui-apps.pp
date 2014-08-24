@@ -9,6 +9,7 @@ package {[
 "bless",
 "ghex",
 "wx-common",
-"eclipse-cdt"
+"eclipse-cdt",
+"filezilla"
 ]:
 }
