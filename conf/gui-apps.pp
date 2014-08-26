@@ -2,6 +2,8 @@ Package { ensure => "installed" }
 
 package {[
 "chromium-browser",
+"chromium-codecs-ffmpeg",
+"chromium-codecs-ffmpeg-extra",
 "gparted",
 "deluge",
 "gufw",
@@ -10,6 +12,7 @@ package {[
 "ghex",
 "wx-common",
 "eclipse-cdt",
-"filezilla"
+"filezilla",
+"pidgin"
 ]:
 }
