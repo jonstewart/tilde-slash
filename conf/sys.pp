@@ -13,7 +13,7 @@ package {[
 "wine",
 "linux-tools-common",
 "linux-base",
-"linux-tools-3.5.0-17",
+#"linux-tools-3.5.0-17",
 "subversion",
 "htop",
 "vpnc",
