@@ -4,7 +4,7 @@ umask 077
 if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
-
+PATH=/usr/lib/ccache:$PATH
 export PATH
 
 if [ -f ~/.aliases ] ; then

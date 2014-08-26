@@ -5,6 +5,7 @@ package {[
 "gdb",
 "clang",
 "llvm",
+"ccache",
 "autoconf",
 "autoconf-archive",
 "automake",
