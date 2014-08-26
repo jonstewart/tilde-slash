@@ -12,6 +12,11 @@ package {[
 "libpcre3-dev",
 "libpcre3",
 "libpcrecpp0",
-"libsqlite3-dev"
+"libsqlite3-dev",
+"gstreamer0.10-ffmpeg",
+"libavcodec-extra-54",
+"x264",
+"vlc",
+
 ]:
 }
