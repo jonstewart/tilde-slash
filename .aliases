@@ -9,9 +9,7 @@ else
   echo "Cannot determine total number of cores on this system"
 fi
 
-# fedora
 alias pico='nano'
-alias syi='sudo yum install'
 
 # git
 alias gi='git status'
@@ -25,4 +23,4 @@ alias ll='ls -la'
 alias sc="scons -j $TOTAL_CORES"
 alias mk="make --no-print-directory -j$TOTAL_CORES"
 alias mkc="make --no-print-directory -j$TOTAL_CORES check" 
-alias ply=/home/jon/data/code/play-2.2.0/play
+alias play='activator'
