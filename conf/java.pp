@@ -9,7 +9,6 @@ package {[
 "maven",
 "visualvm",
 "netbeans",
-"jenkins",
-"ivy"
+"ivy",
 ]:
 }

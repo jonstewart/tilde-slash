@@ -2,7 +2,8 @@ Package { ensure => "installed" }
 
 package {[
 #"nodejs",
-"npm"
+"npm",
+"nodejs-legacy"
 ]:
 }
 

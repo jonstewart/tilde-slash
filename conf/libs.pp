@@ -13,6 +13,7 @@ package {[
 "libpcre3",
 "libpcrecpp0",
 "libsqlite3-dev",
+"libtre-dev",
 "gstreamer0.10-ffmpeg",
 "libavcodec-extra-54",
 "x264",
