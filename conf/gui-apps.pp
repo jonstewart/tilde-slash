@@ -4,6 +4,7 @@ package {[
 "chromium-browser",
 "chromium-codecs-ffmpeg",
 "chromium-codecs-ffmpeg-extra",
+"adobe-flashplugin",
 "gparted",
 "deluge",
 "gufw",
