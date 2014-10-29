@@ -27,5 +27,5 @@ if [ -f ~/.aliases ] ; then
 	. ~/.aliases
 fi
 
-export BOOST_ROOT=/home/jon/data/code/boost_1_55_0
+export BOOST_ROOT=/home/jon/data/code/boost_1_56_0
 export LD_LIBRARY_PATH=$BOOST_ROOT/stage/lib
